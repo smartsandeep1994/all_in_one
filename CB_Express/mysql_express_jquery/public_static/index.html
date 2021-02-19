@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3>Add a Person</h3>
+    <form method="POST" action="/pages/add">
+        <input type="text" id="name" name="name" placeholder="name"><br>
+        <input type="number"  id="age"  name="age" placeholder="age"><br>
+        <input type="text"  id="city"  name="city" placeholder="city"><br>
+        <input type="button"  id="register"  value="Register">
+    </form>
+    <br><br>
+    <table border="1"  id="persons"  cellspacing="10" cellpadding="10">
+        <tr>
+            <th>Name</th>
+            <th>Age</th>
+            <th>City</th>
+        </tr>
+        
+    </table>
+</body>
+<script
+  src="https://code.jquery.com/jquery-3.5.1.js"
+  integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+  crossorigin="anonymous">
+</script>
+<script src="script.js"></script>
+</html>
